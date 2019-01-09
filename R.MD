@@ -654,8 +654,13 @@ dglars：微分几何最小角度回归
 https://cran.r-project.org/web/packages/dglars/index.html
 
 
+mfbvar：混合频率贝叶斯VAR模型
+用明尼苏达或稳态先验估计混合频率贝叶斯矢量自回归（VAR）模型。该软件包实现了一个基于状态空间的VAR模型，可以处理数据的混合频率。使用马尔可夫链蒙特卡罗估计模型以数值逼近后验分布，其中先验可以是明尼苏达先验，如Schorfheide和Song（2015）< doi：10.1080 / 07350015.2014.954707 >所使用的，或稳态之前，正如Ankargren，Unosson和Yang（2018）所倡导的那样< http://uu.diva-portal.org/smash/get/diva2:1260262/FULLTEXT01.pdf >。
+https://cran.r-project.org/web/packages/mfbvar/index.html
 
-
+TreeSearch：使用自定义最优性标准的系统发生树搜索
+使用用户定义的标准搜索最佳的系统发育树。实现Profile Parsimony（Faith和Trueman，2001）< doi：10.1080 / 10635150118627 >和连续近似（Farris，1969）< doi：10.2307 / 2412182 >。使用Brazeau，Guillerme和Smith（2019）< doi：10.1093 / sysbio / syy083 > 的算法处理不适用的数据。
+https://cran.r-project.org/web/packages/TreeSearch/index.html
 
 
 10.10 - 12/25
