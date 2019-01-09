@@ -687,7 +687,7 @@ https://cran.r-project.org/web/packages/regsem/index.html
 
 
 
-10.10 - 12/25
+10.10 - 2019/1/3
 
 
 
