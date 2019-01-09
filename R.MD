@@ -663,6 +663,30 @@ TreeSearch：使用自定义最优性标准的系统发生树搜索
 https://cran.r-project.org/web/packages/TreeSearch/index.html
 
 
+gllvm: Generalized Linear Latent Variable Models
+Analysis of multivariate data using generalized linear latent variable models (gllvm). Estimation is performed using either Laplace approximation method or variational approximation method implemented via TMB (Kristensen et al., (2016), <doi:10.18637/jss.v070.i05>). Details for gllvm, see Hui et al. (2015) <doi:10.1111/2041-210X.12236> and (2017) <doi:10.1080/10618600.2016.1164708> and Niku et al. (2017) <doi:10.1007/s13253-017-0304-7>.
+https://cran.r-project.org/web/packages/gllvm/index.html
+
+
+kmed：基于距离的k-Medoids
+基于距离的k-medoids聚类的算法：简单快速的k-medoids（Park and Jun，2009）< doi：10.1016 / j.eswa.2008.01.039 >，排名k-medoids（Zadegan等，2013）< doi：10.1016 / j.knosys.2012.10.012 >，和步骤k-medoids（Yu等，2018）< doi：10.1016 / j.eswa.2017.09.052 >。计算混合变量数据的距离，如Gower，Podani，Wishart（2003）< doi：10.1007 / 978-3-642-55721-7_23 >，Huang（1997）< http://citeseerx.ist.psu.edu/viewdoc /download?doi=10.1.1.94.9984&rep=rep1&type=pdf>,Harikumar和PV（2015）< doi：10.1016 / j.procs.2015.10.077 >，以及Ahmad和Dey（2007）< doi：10.1016 / j。 datak.2007.03.016>。群集验证应用引导程序生成具有灵活重新排序矩阵算法（例如完整，病区或平均链接）的热图。
+https://cran.r-project.org/web/packages/kmed/index.html
+
+
+
+regsem：正则化结构方程模型
+使用脊和套索惩罚（和扩展）来惩罚结构方程模型中的特定参数。该软件包提供额外的成本函数，交叉验证以及传统结构方程模型之外的其他扩展。还包含执行探索性调解（XMed）的功能。
+https://cran.r-project.org/web/packages/regsem/index.html
+
+
+
+
+
+
+
+
+
+
 10.10 - 12/25
 
 
