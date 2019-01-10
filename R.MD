@@ -679,6 +679,113 @@ regsem：正则化结构方程模型
 https://cran.r-project.org/web/packages/regsem/index.html
 
 
+Rdistance：密度和丰度估计的距离采样分析
+距离采样是估算生态中有机体密度和丰度的常用方法。Rdistance包含有助于分析在点或线横断面上收集的距离采样数据的例程。距离模型使用类似回归的公式指定（类似于lm，glm等）。丰富的例程执行自动引导和自动检测功能选择。总体（研究区域）和站点级（横断面或点）丰度估计可用。包括一大套经典的参数检测功能以及一些不常见的参数函数（例如，Gamma，负指数）和非参数平滑距离函数。自定义（用户定义）检测功能易于实现（参见插图）。
+https://cran.r-project.org/web/packages/Rdistance/index.html
+
+pomdp：部分可观测马尔可夫决策过程的解算器（POMDP）
+为pomdp-solve提供接口，pomdp-solve是部分可观察马尔可夫决策过程（POMDP）的求解器。该软件包使用户能够简单地定义POMDP模型的所有组件，并使用多种方法解决问题。该软件包还包含分析和可视化POMDP解决方案的功能（例如，最优策略）。
+https://cran.r-project.org/web/packages/pomdp/index.html
+
+ftsa：功能时间序列分析
+功能时间序列的可视化，建模，预测和假设检验功能。
+https://cran.r-project.org/web/packages/ftsa/index.html
+
+地球：多元自适应回归样条
+使用弗里德曼论文“快速MARS”和“多变量自适应回归样条”< doi：10.1214 / aos / 1176347963 >中的技术构建回归模型。（术语“MARS”是商标，因此不以包装名称使用。）
+https://cran.r-project.org/web/packages/earth/index.html
+
+
+
+PoiClaClu：基于泊松模型的测序数据分类和聚类
+实施文章Witten（2011）Classification and Clustering of Sequencing Data using a Poisson Model，Annals of Applied Statistics 5（4）2493-2518中描述的方法。
+https://cran.r-project.org/web/packages/PoiClaClu/index.html
+
+
+FitARMA：使用快速MLE算法拟合ARMA或ARIMA
+实现快速最大似然算法以拟合ARMA时间序列。使用S3方法打印，汇总，拟合，残差。快速精确高斯ARMA仿真。
+https://cran.r-project.org/web/packages/FitARMA/index.html
+
+
+jrt：判断数据的项目响应理论建模和评分
+使用多元项目 - 响应理论（IRT）模型进行心理测量分析和判断数据评分，如Myszkowski和Storme（2018）< doi：10.17605 / OSF.IO / 9WC34 >中所述。便利功能用于自动比较和选择模型，以及呈现各种基于模型的统计数据。绘图功能用于显示类别曲线，以及信息，可靠性和标准误差函数。
+
+modesto：随机系统的建模与分析
+当我们考虑连续观察的随机系统时，计算重要的数量。如，成本模型，限制分布，转移矩阵，过渡分布和占用矩阵。该方法描述于例如Ross S.（2014），Introduction to Probability Models。十一版。学术出版社
+https://cran.r-project.org/web/packages/modesto/index.html
+
+
+bwd：变点检测的后退程序
+实现Shin等人提出的单个和多个变化点检测的后向过程。< arXiv：1812.10107 >。后向方法对于检测在拷贝数变异（CNV）检测中常见的短信号和稀疏信号特别有用。
+https://cran.r-project.org/web/packages/bwd/index.html
+
+成本：基于Copula的时空数据半参数模型
+参数估计，一步提前预测和时空数据的新位置预测方法。
+https://cran.r-project.org/web/packages/COST/index.html
+
+项目反应理论
+sirt: Supplementary Item Response Theory Models
+Supplementary functions for item response models aiming to complement existing R packages. The functionality includes among others multidimensional compensatory and noncompensatory IRT models (Reckase, 2009, <doi:10.1007/978-0-387-89976-3>), MCMC for hierarchical IRT models and testlet models (Fox, 2010, <doi:10.1007/978-1-4419-0742-4>), NOHARM (Fraser & McDonald, 1982, <doi:10.1207/s15327906mbr2302_9>), Rasch copula model (Braeken, 2011, <doi:10.1007/s11336-010-9190-4>; Schroeders, Robitzsch & Schipolowski, 2014, <doi:10.1111/jedm.12054>), faceted and hierarchical rater models (DeCarlo, Kim & Johnson, 2011, <doi:10.1111/j.1745-3984.2011.00143.x>), ordinal IRT model (ISOP; Scheiblechner, 1995, <doi:10.1007/BF02301417>), DETECT statistic (Stout, Habing, Douglas & Kim, 1996, <doi:10.1177/014662169602000403>), local structural equation modeling (LSEM; Hildebrandt, Luedtke, Robitzsch, Sommer & Wilhelm, 2016, <doi:10.1080/00273171.2016.1142856>).
+https://cran.r-project.org/web/packages/sirt/index.html
+
+
+mvcwt：多时间序列的小波分析
+计算不规则采样时间序列的连续小波变换。
+https://cran.r-project.org/web/packages/mvcwt/index.html
+
+
+线性假设的全局检验
+gvlma: Global Validation of Linear Models Assumptions
+Methods from the paper: Pena, EA and Slate, EH, "Global Validation of Linear Model Assumptions," J. American Statistical Association, 101(473):341-354, 2006.
+
+HMMEsolver：通过行操作的Henderson混合模型方程的快速求解器
+考虑具有正常随机效应的线性混合模型。解决亨德森混合模型方程（HMME）的典型方法是固定效应和随机效应的递归估计。我们为HMME提供快速，稳定且可扩展的求解器，而无需计算矩阵求逆。有关详细信息，请参阅Kim（2017）< arXiv：1710.09663 >。
+
+tseriesChaos：非线性时间序列分析
+非线性时间序列分析的例程。这项工作很大程度上受到了TISEAN项目的启发，Rainer Hegger，Holger Kantz和Thomas Schreiber：< http://www.mpipks-dresden.mpg.de/~tisean/ >。
+https://cran.r-project.org/web/packages/tseriesChaos/index.html
+
+dynlm：动态线性回归
+动态线性模型和时间序列回归。
+https://cran.r-project.org/web/packages/dynlm/index.html
+
+smbinning：评分建模和最优分箱
+一组用于从头到尾构建评分模型的函数，引导用户遵循高效且有组织的开发过程，大大减少了在数据探索，变量选择，特征工程和分级以及其他周期性任务上花费的时间。该软件包还包含单调和自定义分级，缩放功能，可将逻辑系数转换为点，以便更好地理解业务，并计算和可视化分类模型的经典性能指标。
+https://cran.r-project.org/web/packages/smbinning/index.html
+
+splinetree：纵向回归树木和森林
+使用样条投影方法为纵向或功能数据构建回归树和随机森林。实施并扩展了Yu和Lambert（1999）< doi：10.1080 / 10618600.1999.10474847 >的工作。该方法允许在考虑水平和形状或仅响应轨迹的形状的同时建造树木和森林。
+https://cran.r-project.org/web/packages/splinetree/index.html
+
+
+RSGHB：分层贝叶斯估计的函数：一种灵活的方法
+使用分层贝叶斯（HB）框架估计模型的函数。灵活性允许用户直接指定似然函数而不是假定预定的模型结构。可以使用此代码估计的模型类型包括离散选择模型族（Multinomial Logit，Mixed Logit，嵌套Logit，Error Components Logit和Latent Class）以及有序的probit和ordered logit等有序响应模型。此外，该软件包允许灵活地将参数指定为固定的（跨个体不变）或随机分布的随机参数。支持的参数分布包括正常，正/负对数正态，正/负删失正常和约翰逊SB分布。肯尼斯火车' 用于进行分层贝叶斯估计的Matlab和Gauss代码已经成为该软件包中包含的一些功能的基础。这些Matlab / Gauss函数已被重写以在R中进行优化。添加了大量代码以增加代码库的灵活性和可用性。可以在这里找到Train的原始Gauss和Matlab代码：<http://elsa.berkeley.edu/Software/abstracts/train1006mxlhb.html >在此处查看关于HB in Discrete Choice with Simulation的章节：< http://elsa.berkeley.edu/books/choice2.html >; 以及他在这里使用HB与非正态分布的论文：< http://eml.berkeley.edu// ~train/trainsonnier.pdf >。作者还要感谢Stephane Hess和Choice Modeling Center的宝贵贡献：< https://cmc.leeds.ac.uk/ >。
+https://cran.r-project.org/web/packages/RSGHB/index.html
+
+采样
+示例：一般重采样基础设施
+用于创建和汇总不同类型的重采样对象的类和函数（例如，引导程序，交叉验证）。
+
+naivebayes：朴素贝叶斯算法的高性能实现
+Naive Bayes算法的高性能实现。
+https://cran.r-project.org/web/packages/naivebayes/index.html
+
+MRFA：使用多分辨率功能ANOVA（MRFA）方法拟合和预测大规模非线性回归问题
+执行Sung等人提出的MRFA方法。（2019+）< arXiv：1709.07064 >以拟合和预测非线性回归问题，特别是对于大规模和高维问题。该应用程序包括确定性或随机计算机实验，空间数据集等。
+https://cran.r-project.org/web/packages/MRFA/index.html
+
+orderedLasso：Ordered Lasso和Time-Lag Sparse Regression
+有序套索和时滞稀疏回归。有序套索适合线性模型并对系数施加顺序约束。它将系数写为正负部分，并且需要正部分，负部分不增加且为正。Time-Lag Lasso将有序的Lasso推广到具有多个预测变量的通用数据矩阵。有关更多详细信息，请参阅Suo，X.，Tibshirani，R。，（2014）'An Ordered Lasso and Sparse Time-lagged Regression'。
+https://cran.r-project.org/web/packages/orderedLasso/index.html
+
+mgm：估计时变k阶混合图形模型
+用弹性网正则邻域回归估计k阶时变混合图模型和混合VAR（p）模型。详细信息请参见链接纸。
+https://cran.r-project.org/web/packages/mgm/index.html
+
+
+harmonicmeanp：均值最大似然的谐波平均p值和模型平均
+调和平均p值（HMP）测试结合p值并校正多个测试，同时以比包括Bonferroni和Simes程序在内的常见替代方案更强大的方式控制家庭错误率，比控制错误发现更严格速率，并且对于测试和不等权重之间的正相关是稳健的。这是一个多级测试，意味着一个或多个重要测试的超集几乎肯定是重要的，相反，当超集非重要时，组成测试几乎肯定是不重要的。它基于MAMML（平均最大似然平均模型），贝叶斯模型平均的频率模拟，理论上基于广义中心极限定理。有关详细示例，请键入vignette（“harmonicmeanp”）
+https://cran.r-project.org/web/packages/harmonicmeanp/index.html
 
 
 
@@ -687,7 +794,13 @@ https://cran.r-project.org/web/packages/regsem/index.html
 
 
 
-10.10 - 2019/1/3
+
+
+
+
+
+
+10.10 - 2019/1/8/
 
 
 
