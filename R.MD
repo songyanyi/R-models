@@ -790,6 +790,105 @@ https://cran.r-project.org/web/packages/harmonicmeanp/index.html
 
 
 
+d3r：'d3.js'公用事业为R
+提供了一套函数来帮助简化R中'd3.js'的使用。这些帮助包括'htmltools :: htmlDependency'函数，层次构建器和'partykit'，'igraph，''table'的转换工具，以及'data.frame'R对象成'd3.js'所期望的'JSON'。
+https://cran.r-project.org/web/packages/d3r/index.html
+
+
+顺序：泊松和二项式数据的精确序贯分析
+用于计算精确临界值，统计功效，预期信号时间和执行精确顺序分析所需样本大小的函数。所有这些计算都可以用于泊松或二项式数据，连续或组顺序分析，以及不同类型的拒绝边界。在组顺序分析的情况下，不必事先指定组大小，并且可以任意确定阿尔法支出。
+https://cran.r-project.org/web/packages/Sequential/index.html
+
+
+CARBayesST：区域单位数据的时空广义线性混合模型
+实现一类面积单位数据的时空广义线性混合模型，利用马尔可夫链蒙特卡罗（MCMC）模拟在贝叶斯环境中进行推理。响应变量可以是二项式，高斯型或泊松式，但对于某些模型，只有二项式和泊松数据可能性可用。时空自相关由随机效应建模，随机效应被指定为条件自回归（CAR）样式的先验分布。有许多不同的随机效应结构，包括Bernardinelli等。（1995）< doi：10.1002 / sim.4780142112 >，Rushworth等。（2014）< doi：10.1016 / j.sste.2014.05.001 >和Lee等人。（2016）< doi：10.1214 / 16-AOAS941>。详情请参阅此套餐随附的小插图。该包的创建得到了工程和物理科学研究委员会（EPSRC）资助EP / J017442 / 1和医学研究委员会（MRC）资助MR / L022184 / 1的支持。
+https://cran.r-project.org/web/packages/CARBayesST/index.html
+
+
+vagam：广义加法模型的变分近似
+使用变分近似（VA）框架拟合广义加性模型（GAM）。简而言之，当VA参数化为混合模型时（例如，使用惩罚样条），VA框架为GAM的边际可能性提供完全或至少封闭到完全易处理的下界近似。在此过程中，VA框架旨在提供GAM混合模型方法中可用的稳定性和自然推理工具，同时实现与使用GAM的惩罚似然方法相当的计算时间。见Hui等人。（2018）< doi：10.1080 / 01621459.2018.1518235 >。
+https://cran.r-project.org/web/packages/vagam/index.html
+
+simmer：R的离散事件模拟
+R的面向过程和基于轨迹的离散事件模拟（DES）包。它被设计为一个通用而强大的框架。该架构包含一个强大而快速的仿真核心，用“C ++”编写，具有自动监控功能。它提供了丰富而灵活的R API，围绕轨迹的概念，这是同一类型实体的仿真模型中的通用路径。关于'simmer'的文档由该软件包中包含的几个小插图提供，通过Ucar，Smeets和Azcorra（2018，< arXiv：1705.09746 >）的论文，以及Ucar，Hernández，Serrano和Azcorra（2018，< doi）的论文。 ：10.1109 / MCOM.2018.1700960 >）; 有关详细信息，请参阅'引用（“simmer”）'。
+01.文火的介绍
+02. JSS论文
+03.高级轨迹用法
+04.银行教程：第一部分
+04.银行教程：第二部分
+05.其他模拟实例
+06.排队系统
+07.连续时间马尔可夫链
+08.餐饮哲学家问题
+AA。5G场景的设计与分析
+https://cran.r-project.org/web/packages/simmer/index.html
+
+
+SILM：线性模型的同时推断
+如Zhang，X。和Cheng，G。（2017）< doi：10.1080 / 01621459.2016.1166114 > 所述的高维线性模型的同时推断程序。
+https://cran.r-project.org/web/packages/SILM/index.html
+
+KSPM：核半参数模型
+适合内核半参数模型及其扩展。它允许在同一模型中使用多个内核和无限制的交互。通过最大化惩罚对数似然来估计系数; 通过最小化留一出错误来估计惩罚条款和超参数。它包括具有置信度/预测间隔的预测，每个核的重要性的统计测试，用于变量选择的过程以及用于诊断和解释协变量效应的图形工具。目前，它是针对连续因变量实现的。
+
+
+ARpLMEC：拟合自回归截尾线性混合效应模型
+它使用EM算法拟合具有阶p的自回归误差的左，右或区间删失混合效应线性模型。它提供估计，参数的标准误差和未来观测的预测。
+
+statGraph：图的统计方法
+包含分析图形的统计方法，例如图形参数估计，基于GIC的模型选择（图形信息标准），区分两个或更多图形群体的统计检验（ANOGVA - 图形变异分析），图形之间的相关性和聚类图表。
+
+
+nprobust：使用局部多项式回归和核密度估计的非参数稳健估计和推理方法
+使用局部多项式回归和核密度估计方法进行数据驱动统计分析的工具，如Calonico，Cattaneo和Farrell（2018）所述：lprobust（）用于局部多项式点估计和鲁棒偏差校正推理和kdrobust（）用于核密度点估计和稳健的偏差校正推理。对于局部多项式和核密度估计，分别通过lpbwselect（）和kdbwselect（）计算几个最佳带宽选择过程。最后，nprobust.plot（）用于密度和回归图，具有稳健的置信区间。
+https://cran.r-project.org/web/packages/nprobust/index.html
+
+
+liquidSVM：快速通用的SVM包
+支持向量机（SVM）和相关的基于内核的学习算法是众所周知的一类机器学习算法，用于非参数分类和回归。liquidSVM是SVM的一种实现，其主要特点是：完全集成的超参数选择，小型和大型数据集的极高速度，专家的完全灵活性，以及​​包含各种不同的学习场景：多级分类，ROC，和Neyman-Pearson学习，最小二乘，分位数和expectile回归。
+https://cran.r-project.org/web/packages/liquidSVM/index.html
+
+BoltzMM：具有MM算法的Boltzmann机器
+为全可见玻尔兹曼机器提供概率计算，数据生成和模型估计。它遵循Nguyen和Wood（2016a）< doi：10.1162 / NECO_a_00813 >和Nguyen and Wood（2016b）< doi：10.1109 / TNNLS.2015.2425898 >中描述的方法。
+https://cran.r-project.org/web/packages/BoltzMM/index.html
+
+
+BiProbitPartial：具有部分可观察性的双变量Probit
+一组函数，用于估计，汇总和执行预测，其中双变量概率受部分可观察性的影响。支持频率论和贝叶斯概率哲学。用最大似然估计频率论方法，并且用Rajbanhdari，A（2014）< doi：10.1002 / 9781118771051.ch13 > 开发的马尔可夫链蒙特卡罗（MCMC）算法估计贝叶斯方法。
+https://cran.r-project.org/web/packages/BiProbitPartial/index.html
+
+pcLasso：主要组件套索
+一种用于拟合线性和逻辑回归模型的主成分套索的整个正则化路径的方法。该算法以路径方式使用循环坐标下降。有关算法的详细信息，请参阅下面的URL。参见Tay，K.，Friedman，J.，Tibshirani，R。，（2014）'Principal component-guided sparse regression'< arXiv：1810.04651 >。
+https://cran.r-project.org/web/packages/pcLasso/index.html
+
+
+ipc：进程间消息传递的工具
+提供在R进程之间传递消息的工具。提供了闪亮的示例，说明如何执行有用的任务，例如：更新未来的反应值，长时间运行异步任务的进度条，以及根据用户输入中断异步任务。
+https://cran.r-project.org/web/packages/ipc/index.html
+
+
+glmmTMB：使用Template Model Builder的广义线性混合模型
+适合线性和广义线性混合模型，具有各种扩展，包括零膨胀。通过'TMB'（模板模型生成器）使用最大似然估计来拟合模型。假设随机效应在线性预测器的尺度上是高斯的，并且使用拉普拉斯近似积分。使用自动微分计算梯度。
+https://cran.r-project.org/web/packages/glmmTMB/index.html
+
+DirichletReg：R中的Dirichlet回归
+在R中实现Dirichlet回归模型
+https://cran.r-project.org/web/packages/DirichletReg/index.html
+
+
+cPCG：求解线性方程组的高效定制预条件共轭梯度法
+使用（预处理）共轭梯度算法求解线性方程组，使用Armadillo模板化'C ++'线性代数库提高效率，并为用户指定的预处理方法提供灵活性。请查看< https://github.com/styvon/cPCG >以获取最新更新。
+https://cran.r-project.org/web/packages/cPCG/index.html
+
+
+
+clr：通过尺寸缩减进行曲线线性回归
+曲线响应和曲线回归的线性回归新方法，Cho，Goude，Brossat和Yao（2013）< doi：10.1080 / 01621459.2012.722900 >和（2015）< doi：10.1007 / 978-3- 319-18732-7_3 >。这种方法背后的关键思想是基于Hilbert空间中的奇异值分解的降维，这将曲线回归问题简化为几个标量线性回归问题。
+https://cran.r-project.org/web/packages/clr/index.html
+
+blavaan: Bayesian Latent Variable Analysis
+Fit a variety of Bayesian latent variable models, including confirmatory factor analysis, structural equation models, and latent growth curve models.
+https://cran.r-project.org/web/packages/blavaan/index.html
 
 
 
@@ -800,7 +899,19 @@ https://cran.r-project.org/web/packages/harmonicmeanp/index.html
 
 
 
-10.10 - 2019/1/8/
+
+
+
+
+
+
+
+
+
+
+
+
+2018/10/10 - 2019/1/13
 
 
 
