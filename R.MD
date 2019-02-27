@@ -891,6 +891,227 @@ Fit a variety of Bayesian latent variable models, including confirmatory factor 
 https://cran.r-project.org/web/packages/blavaan/index.html
 
 
+ICAOD：非线性模型的最优设计
+使用称为帝国主义竞争算法ICA的元启发式算法找到非线性模型的最优设计。有关详细信息，请参阅Masoudi等。（2017）< doi：10.1016 / j.csda.2016.06.014 >。
+https://cran.r-project.org/web/packages/ICAOD/index.html
+
+
+rmgarch：多变量GARCH模型
+可行的多变量GARCH模型包括DCC，GO-GARCH和Copula-GARCH。
+https://cran.r-project.org/web/packages/rmgarch/index.html
+
+
+cts：连续时间自回归模型
+使用卡尔曼滤波器拟合连续时间自回归模型的函数（Wang（2013）< doi：10.18637 / jss.v053.i05 >）
+https://cran.r-project.org/web/packages/cts/index.html
+
+
+
+gbm：广义Boosted回归模型
+Freund和Schapire的AdaBoost算法和Friedman梯度增强机的扩展实现。包括回归方法用于最小二乘，绝对损失，t分布损耗，分位数回归，逻辑，多项式Lo​​gistic，泊松，Cox比例风险局部可能性，AdaBoost的指数损耗，Huberized铰链损失，与学习秩措施（LambdaMart）。最初由Greg Ridgeway开发
+https://cran.r-project.org/web/packages/gbm/index.html
+
+
+
+msde：多元随机微分方程的贝叶斯推断
+实现MCMC采样器，用于具有可能潜在分量的任意时间齐次多元随机微分方程（SDE）模型的后验分布。该软件包提供了一个简单的入口点，可以将用户定义的模型直接与采样器的C ++代码集成，并在使用“OpenMP”编译时并行化大部分计算。
+https://cran.r-project.org/web/packages/msde/index.html
+
+MM4LMM：通过MM算法推断线性混合模型
+主函数MMEs​​t（）使用Min-Max（MM）算法（Hunter，DR，＆Lange，K。（2004）< doi：10.1198 / 0003130042836 >）在方差分量混合模型中执行（受限制的）最大似然。
+https://cran.r-project.org/web/packages/MM4LMM/index.html
+
+
+
+misaem：缺少协变量的Logistic回归
+使用算法随机逼近EM估计具有缺失数据的逻辑回归的参数并执行模型选择。
+https://cran.r-project.org/web/packages/misaem/index.html
+
+
+修复：使用潜在仪器变量使用内生回归器拟合线性模型
+使用潜在的工具变量方法拟合具有内生回归量的线性模型。包中包含的方法是Lewbel（1997）< doi：10.2307 / 2171884 >高阶矩方法以及Lewbel（2012）< doi：10.1080 / 07350015.2012.643126 >异方差方法，Park和Gupta（2012）< doi：10.1287 /mksc.1120.0718 >使用高斯copula和Kim和Frees的联合估计方法（2007）< doi：10.1007 / s11336-007-9008-1>多级广义矩方法，用于处理多级设置中的内生性。这些是解决内生性问题的统计技术，不需要外部工具变量。请注意，对于2.0.0版本，引入了彻底的更改，这些更改大大提高了功能性和可用性，但却打破了向后兼容性。
+https://cran.r-project.org/web/packages/REndo/index.html
+
+
+modQR：多输出方向分位数回归
+包含用于执行多输出分位数回归和通过方向回归分位数计算回归分位数轮廓的基本工具。在位置情况下，可以因此获得二维到六维的半空间深度轮廓。Hallin，M.，Paindavine，D。和Siman，M。（2010）多元分位数和多输出回归分位数：从L1优化到半空间深度。统计年鉴38,635-669有关该方法的更多参考，请参阅帮助页面。
+https://cran.r-project.org/web/packages/modQR/index.html
+
+
+BSL：贝叶斯合成似然
+贝叶斯合成似然（BSL，Price等人（2018）< doi：10.1080 / 10618600.2017.1302882 >）是标准的非参数近似贝叶斯计算（ABC）的替代方案。BSL假定汇总统计可能性的多元正态分布，并且在模型汇总统计的分布足够规则时是合适的。该软件包提供了Metropolis Hastings Markov链蒙特卡罗实现的BSL，BSLasso和semiBSL。当摘要统计的维度很高时，具有图形套索的BSL（BSLasso，An等人（2018）< https://eprints.qut.edu.au/102263/ >）在计算上更有效。半参数版本的BSL（semiBSL，An et al。（2018）< arXiv：1809.05800>）对非正态汇总统计更加健壮。计划扩展此程序包。
+https://cran.r-project.org/web/packages/BSL/index.html
+
+rugarch：单变量GARCH模型
+ARFIMA，平均值，外部回归量和各种GARCH口味，具有拟合，预测，模拟，推理和绘图的方法
+https://cran.r-project.org/web/packages/rugarch/index.html
+
+
+StepReg：逐步回归分析
+变量选择的逐步回归分析可用于在“前向”和“逐步”步骤的单变量或多变量回归分析中获得最佳候选最终回归模型。程序采用Akaike信息准则，Akaike信息准则的小样本大小修正版，贝叶斯信息准则，Hannan和Quinn信息准则，Hannan和Quinn信息准则的校正形式，Schwarz准则和显着性水平作为选择标准，其中进入和停留的显着性水平默认设置为0.15。回归模型中的多重共线性检测是通过检查公差值来执行的，公差值默认设置为1e-7。嵌套在类效果中的连续变量也在此包中考虑。
+https://cran.r-project.org/web/packages/StepReg/index.html
+
+
+segMGarch：高维GARCH过程的多变点检测
+在高维GARCH过程中实现多变点检测的分割算法。它同时通过识别“共同”变化点来对GARCH过程进行分段，每个变化点可以由子集或所有组件时间序列共享，作为其内部和/或横截面相关结构中的变化点。
+https://cran.r-project.org/web/packages/segMGarch/index.html
+
+segmentr：具有最大似然的段数据
+给定用户提供的可能性，该包将其应用于给定的矩阵数据集，以便在数据中找到最大化所有段的可能性之和的变化点。该软件包提供了一些具有不同时间复杂度和假设折衷的算法，因此用户可以选择最适合手头问题的算法。该包中的分割算法的实现基于Bruno M. de Castro，Florencia Leonardi（2018）< arXiv：1501.01756 >的论文。柏林天气样本数据集由Deutscher Wetterdienst < https://dwd.de/ >提供。您可以通过下面的URL找到此软件包存储库的Acknowledgements部分中的所有引用。
+https://cran.r-project.org/web/packages/segmentr/index.html
+
+
+lcpm：序数结果：带有Log Link的广义线性模型
+日志累积概率模型（LCPM）和比例概率模型（PPM）的实现，其中使用约束优化确定最大似然估计。此实现考虑了参数空间的隐式约束。标准错误，z测试和p值等其他功能使用基于约束优化的结果改编的标准方法。
+https://cran.r-project.org/web/packages/lcpm/index.html
+
+parglm：并行GLM
+为广义线性模型提供并行估计方法，无需使用多线程LAPACK或BLAS进行编译。
+https://cran.r-project.org/web/packages/parglm/index.html
+
+
+ensr：Elastic Net SearcheR
+弹性网络回归模型由两个参数控制，λ为收缩率的度量，α为定义模型在脊和套索回归之间的光谱位置的度量。glmnet提供了通过交叉验证选择lambda的工具，但没有用于选择alpha的自动方法。Elastic Net SearcheR可自动同时选择lambda和alpha。部分由NICHD R03 HD094912支持开发。
+https://cran.r-project.org/web/packages/ensr/index.html
+
+
+BayesianTools：用于贝叶斯统计的通用MCMC和SMC采样器和工具
+通用MCMC和SMC采样器，以及贝叶斯统计的绘图和诊断功能，特别侧重于校准复杂的系统模型。实施的采样器包括各种Metropolis MCMC变体（包括自适应和/或延迟拒绝MH），T-walk，两个差分进化MCMC，两个DREAM MCMC和顺序蒙特卡罗（SMC）粒子滤波器。
+https://cran.r-project.org/web/packages/BayesianTools/index.html
+
+CluMix：混合型数据的聚类和可视化
+提供用于聚类主题和混合数据类型变量的实用程序（Hummel，Edelmann，Kopp-Schneider（2017）< doi：10.1371 / journal.pone.0188274>）。受试者之间的相似性通过高尔的一般相似系数来衡量，其中序数变量为波达尼的扩展。可以通过以下方式评估变量之间的相似性：i）通过对不同数据类型对的适当关联度量的组合，或者ii）基于距离相关性。或者，也可以通过'ClustOfVar'方法对变量进行聚类。该软件包的主要特点是生成混合数据热图。为了可视化对象或变量之间的相似性，可以绘制相应距离矩阵的热图。变量之间的关联可以通过“混淆图”来探索，该图可以直观地检测一些主要感兴趣的变量的混淆，共线或替代因素。可以导出主题和变量的距离矩阵和树形图，并用于进一步的可视化和应用。这项工作得到了德国BMBF拨款01ZX1609B的支持。
+https://cran.r-project.org/web/packages/CluMix/index.html
+
+
+NlinTS：非线性时间序列分析
+用于非线性时间序列分析和因果检测的模型。该软件包的主要功能包括经典因果关系检验（CWJGranger 1980）< doi：10.1016 / 0165-1889（80）90069-X >的实现，以及基于前馈神经网络的非线性版本。该软件包还包含Transfer Entropy < doi：10.1103 / PhysRevLett.85.461 >的实现，以及使用基于k近邻< doi：10.1103 / PhysRevE.69.066138 > 的近似的连续传输熵。还有一些其他有用的工具，如VARNN（矢量自回归神经网络）预测模型，平稳性的增强测试，以及离散和连续的熵和互信息。
+https://cran.r-project.org/web/packages/NlinTS/index.html
+
+fourPNO：贝叶斯4参数项目响应模型 项目反应理论
+估计Barton＆Lord's（1981）< doi：10.1002 / j.2333-8504.1981.tb01255.x >四参数IRT模型，使用Culpepper描述的贝叶斯公式的低和高渐近渐近线（2016）< doi：10.1007 / s11336-015-9477 -6 >。
+https://cran.r-project.org/web/packages/fourPNO/index.html
+
+BigVAR：多变量时间序列的降维方法
+估计具有结构化Lasso惩罚的VAR和VARX模型。
+https://cran.r-project.org/web/packages/BigVAR/index.html
+
+
+emmeans：Estimated Marginal Means，又名Least-Squares Means
+获得许多线性，广义线性和混合模型的估计边际均值（EMM）。计算EMM的对比度或线性函数，趋势和斜率的比较。情节和紧凑的字母显示。讨论了最小二乘法，并在Searle，Speed和Milliken（1980）中提出了“估计边际均值”一词。线性模型中的人口边际均值：最小二乘法的替代方法，美国统计学家34（4） ，216-221 < doi：10.1080 / 00031305.1980.10483031 >。
+https://cran.r-project.org/web/packages/emmeans/index.html
+
+BART：贝叶斯加性回归树
+贝叶斯加性回归树（BART）为连续，二元，分类和时间到事件结果提供灵活的非参数化协变量建模。有关BART的更多信息，请参阅Chipman，George和McCulloch（2010）< doi：10.1214 / 09-AOAS285 >和Sparapani，Logan，McCulloch和Laud（2016）< doi：10.1002 / sim.6893 >。
+https://cran.r-project.org/web/packages/BART/index.html
+
+BHSBVAR：结构贝叶斯矢量自回归模型
+使用Baumeister和Hamilton（2015）< doi：10.3982 / ECTA12356 >，Baumeister和Hamilton（2017）< doi：10.3386 / w24167 >以及Baumeister和Hamilton（2018）开发的方法提供运行结构贝叶斯矢量自回归模型的函数。< doi：10.1016 / j.jmoneco.2018.06.005 >。还提供了用于绘制模型参数的脉冲响应，历史分解和后验分布的函数。
+https://cran.r-project.org/web/packages/BHSBVAR/index.html
+
+carfima：连续时间分数集成ARMA过程的不规则间隔长记忆时间序列数据
+我们提供了一个工具箱，通过频率或贝叶斯机器，在单变量和不规则间隔时间序列数据上拟合连续时间分数积分ARMA过程（CARFIMA）。pai q的一般订单CARFIMA（p，H，q）模型在Tsai和Chan（2005）< doi：10.1111 / j.1467-9868.2005.00522.x中规定。>它涉及（p + q + 2）个未知模型参数，即p AR参数，q MA参数，Hurst参数H和过程不确定性（标准偏差）sigma。该包使用称为差分进化算法的全局优化器产生其最大似然估计和渐近不确定性。它还通过Metropolis在配备有自适应马尔可夫链蒙特卡罗的Gibbs采样器中产生后部分布，用于后验采样。但是，如果p> 2，这些拟合程序可能会产生数值误差。工具箱还包含一个函数，用于在给定模型参数和观察时间的情况下模拟来自CARFIMA（p，H，q）过程的离散时间序列数据。
+https://cran.r-project.org/web/packages/carfima/index.html
+
+mlVAR：多级向量自回归
+估计时间序列数据上的多级向量自回归模型。获得三种网络结构：时间网络，同期网络和主体间网络。
+https://cran.r-project.org/web/packages/mlVAR/index.html
+
+HARModel：异构自回归模型
+使用Corsi（2009）< doi：10.1093 / jjfinec / nbp001 >和扩展的HAR模型进行估算，模拟和预测。
+https://cran.r-project.org/web/packages/HARModel/index.html
+
+
+Data2LD：线性微分方程的功能数据分析
+提供使用微分方程作为建模对象的方法，如J.Ramsay G.和Hooker（2017，ISBN 978-1-4939-7188-6）Dynamic Data Analysis，New York：Springer中所述。包括用于分析本书中许多示例的数据集和脚本文件。此版本更正了错误并添加了一个新的演示，CruiseControl。ftp可从< http://www.psych.mcgill.ca/misc/fda/downloads/Data2LD/ > 获得代码和样本分析的“Matlab”版本。在那里，您可以找到一组包含函数和样本分析的.zip文件，以及两个.txt文件，其中包含安装说明和一些其他信息。
+https://cran.r-project.org/web/packages/Data2LD/index.html
+
+
+cIRT：选择项目反应理论
+如Culpepper和Balamuta（2015）< doi：10.1007 / s11336-015-9484-7 > 所述，在贝叶斯分层框架内共同模拟认知反应和项目选择的准确性。此外，该软件包还包含本文分析中使用的数据集。
+https://cran.r-project.org/web/packages/cIRT/index.html
+
+
+
+SwarmSVM：基于支持向量机的集成学习算法
+基于支持向量机的三种集成学习算法。他们都在数据子集上训练支持向量机并组合结果。
+https://cran.r-project.org/web/packages/SwarmSVM/index.html
+
+
+scalreg：Scaled稀疏线性回归
+拟合尺度稀疏线性回归和估计精度矩阵的算法。
+https://cran.r-project.org/web/packages/scalreg/index.html
+
+qrjoint：线性分位数回归中的联合估计
+在线性回归设置中联合估计分位数特定截距和斜率参数。
+https://cran.r-project.org/web/packages/qrjoint/index.html
+
+GAS：广义自回归分数模型
+使用Ardia等人描述的单变量和多变量GAS模型进行模拟，估计和预测。（2019）< doi：10.18637 / jss.v088.i06 >。
+https://cran.r-project.org/web/packages/GAS/index.html
+
+
+
+Brq：分位数回归模型的贝叶斯分析
+分位数回归模型的贝叶斯估计和变量选择。
+https://cran.r-project.org/web/packages/Brq/index.html
+
+
+
+mblm：基于中值的线性模型
+提供基于Theil-Sen单中位数和Siegel重复中位数的线性模型。它们非常稳健（分别为29或50％的击穿点），如果不存在异常值，则估计器与OLS非常相似。
+https://cran.r-project.org/web/packages/mblm/index.html
+
+stepR：多尺度变更点推断
+通过实现多尺度回归估计器SMUCE（K.Frick，A.Munk和H.Sieling，2014）< doi：10.1111 / rssb，允许将步骤函数拟合到单变量串行数据，其中跳跃次数和位置都不知道。 12047 >和HSMUCE（F。Pein，H。Sieling和A. Munk，2017）< doi：10.1111 / rssb.12202 >。另外，可以获得变化点位置和未知信号的频带的置信区间。
+https://cran.r-project.org/web/packages/stepR/index.html
+
+msgps：弹性网络自由度，自适应套索和广义弹性网络
+基于广义路径搜索算法计算套索，弹性网，广义弹性网和自适应套索的自由度。可以通过模型选择标准选择最优模型，包括Mallows'Cp，偏差校正AIC（AICc），广义交叉验证（GCV）和BIC。
+https://cran.r-project.org/web/packages/msgps/index.html
+
+
+mme：多项式混合效应模型
+用于小面积估计的拟合高斯多项式混合效应模型：模型1，在响应变量的每个类别中具有一个随机效应（Lopez-Vizcaino，E。等人，2013）< doi：10.1177 / 1471082X13478873 >; 模型2，引入独立时间效应; 模型3，引入相关的时间效应。mme计算直接和参数自举MSE估计器（Lopez-Vizcaino，E等，2014）< doi：10.1111 / rssa.12085 >。
+https://cran.r-project.org/web/packages/mme/index.html
+
+cdfquantreg：单位区间随机变量的分位数回归
+通过将一个父分布的累积分布函数（cdf）应用于另一个的分位函数，采用两参数分布族来对（0,1）区间上的随机变量建模。
+https://cran.r-project.org/web/packages/cdfquantreg/index.html
+
+
+mirt：多维项目反应理论
+在项目反应理论范例下使用一维和多维潜在性状模型分析二分法和多元响应数据（Chalmers（2012）< doi：10.18637 / jss.v048.i06 >）。可以使用正交（EM）或随机（MHRM）方法估计探索性和确认性模型。可以使用确认的双因素和双层分析来建模项目测试。多组分析和混合效果设计也可用于检测差异项和测试功能以及建模项和人协变量。最后，支持潜在类模型，如DINA，DINO，多维潜类和其他几个离散潜变量模型，包括混合和零膨胀响应模型。
+https://cran.r-project.org/web/packages/mirt/index.html
+
+
+GLMMadaptive：使用自适应高斯求积的广义线性混合模型
+在最大似然下拟合单个分组因子的广义线性混合模型，用自适应高斯求积法则近似随机效应上的积分; Jose C. Pinheiro和Douglas M. Bates（1995）< doi：10.1080 / 10618600.1995.10474663 >。
+https://cran.r-project.org/web/packages/GLMMadaptive/index.html
+
+nlreg：非线性异方差模型的高阶推断
+基于高阶近似的可能非常数方差非线性模型的似然推断
+https://cran.r-project.org/web/packages/nlreg/index.html
+
+
+
+MVN：多变量正态性检验
+执行多变量正态性检验和图形方法，并通过图和测试实现多变量离群值检测和边际分布的单变量正态性，并执行多变量Box-Cox变换（Korkmaz等，（2014），< https：//journal.r-project。 org / archive / 2014-2 / korkmaz-goksuluk-zararsiz.pdf >）
+https://cran.r-project.org/web/packages/MVN/index.html
+
+plsdof：偏最小二乘回归的自由度和统计推断
+plsdof包提供偏最小二乘回归（PLS）回归的自由度估计。PLS的模型选择基于各种信息标准（aic，bic，gmdl）或交叉验证。可以获得PLS回归系数的均值和协方差的估计值。它们允许构建近似置信区间和测试程序的应用。此外，还提供了岭回归和主成分回归的交叉验证程序。
+https://cran.r-project.org/web/packages/plsdof/index.html
+
+fGarch：Rmetrics - 自回归条件异方差建模
+提供一系列功能来分析和模拟金融时间序列模型中的异方差行为。
+https://cran.r-project.org/web/packages/fGarch/index.html
+
+
+
+gendist：生成的概率分布模型
+计算概率密度函数（pdf），累积分布函数（cdf），分位数函数（qf）并为以下一般模型生成随机值（rg）：混合模型，复合模型，折叠模型，偏斜对称模型和弧棕模型。
+https://cran.r-project.org/web/packages/gendist/index.html
 
 
 
@@ -911,7 +1132,7 @@ https://cran.r-project.org/web/packages/blavaan/index.html
 
 
 
-2018/10/10 - 2019/1/13
+2018/10/10 - 2019/2/1
 
 
 
